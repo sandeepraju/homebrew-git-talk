@@ -2,9 +2,9 @@
 class GitTalk < Formula
   desc "GitTalk"
   homepage "https://github.com/sandeepraju/git-talk"
-  url "https://github.com/sandeepraju/git-talk/archive/0.0.8a0.tar.gz"
-  version "3"
-  sha256 "f2c62dfada11eabc0bc3eddbae1a10ffe0bf9b9da47854aa2600044491c338e2"
+  url "https://github.com/sandeepraju/git-talk/archive/0.0.9a0.tar.gz"
+  version "4"
+  sha256 "395a623ebae3c5745e95ea1491f5bfaea8eec602c9f1fd4d2dd82c6f1f0a7823"
 
   depends_on :python => :recommended if MacOS.version <= :snow_leopard
   depends_on "python" => "with-tcl-tk"
